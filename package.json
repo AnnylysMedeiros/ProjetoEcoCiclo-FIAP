@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon servidor/socket-back.js",
-    "start": "ts-node src/index.ts",
+    "start": "ts-node public/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
